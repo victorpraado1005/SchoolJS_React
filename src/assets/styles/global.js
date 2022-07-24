@@ -10,6 +10,7 @@ export default  createGlobalStyle`
     }
 
     body{
+      background: ${({ theme }) => theme.colors.background};
       margin: 0 auto
     }
 `;
